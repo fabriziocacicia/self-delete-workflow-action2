@@ -1,4 +1,4 @@
-# Self Delete Workflow Action
+# Self-Delete Workflow Action
 An action that deletes the workflow that launches it. It is a self-destruction operation, once run the workflow will be gone.
 
 **WARNING!!**
@@ -12,7 +12,7 @@ The action is able to make changes on protected branches. It push the changes to
 Add the action in your worklow as follows.
 
 ```yaml
-- name: Self Delete Workflow
+- name: Self-Delete Workflow
   uses: fabriziocacicia/self-delete-workflow-action@v0.1.0
     env:
       GITHUB_TOKEN: ${{ github.token }}
